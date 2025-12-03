@@ -1,6 +1,9 @@
 Aluno: Hugo Henrique Gomes Cavalcanti
+--
 Matrícula: FR046347
-O Projeto: **CodeJovem** é um projeto apresentado na disciplina de Linguagem de Maração e Formatação. Seu objetivo é introduzir jovens ao mundo da tecnologia através de um site moderno, responsivo e fácil de navegar.  
+--
+O Projeto: **CodeJovem** é um projeto apresentado na disciplina de Linguagem de Maração e Formatação. Seu objetivo é introduzir jovens ao mundo da tecnologia através de um site moderno, responsivo e fácil de navegar.
+--
 
 
 Funcionalidades
