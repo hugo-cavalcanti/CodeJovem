@@ -1,5 +1,7 @@
 # 🎓 CodeJovem – Plataforma de Aprendizado
 
+https://github.com/hugo-cavalcanti/CodeJovem.git
+
 O **CodeJovem** é um projeto criado com o objetivo de introduzir jovens ao mundo da tecnologia através de um site moderno, responsivo e fácil de navegar.  
 ---
 
@@ -23,6 +25,3 @@ O **CodeJovem** é um projeto criado com o objetivo de introduzir jovens ao mund
 - **Imagens personalizadas (hero, cursos e logotipo)**
 
 ---
-
-## 📁 Estrutura de Pastas
-
