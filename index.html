@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CodeJovem — Aprenda HTML & CSS</title>
+
+  <link rel="icon" type="image/x-icon" href="img/codejovem-icon.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="CodeJovem - Curso para adolescentes aprenderem HTML e CSS" />
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container topo-inner">
+      <a class="logo" href="index.html">
+        <img src="img/codejovem-logo.png" alt="CodeJovem logo" class="logo-img">
+        <span class="logo-text">CodeJovem</span>
+      </a>
+
+      <nav class="nav-principal" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html#inicio">Início</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-menu" aria-label="Abrir menu" id="btnMenu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Aprenda HTML e CSS</h1>
+          <p class="lead">Curso prático para adolescentes. Faça seu primeiro site passo a passo.</p>
+          <p class="sublead">Aulas curtas, exercícios e projeto final.</p>
+          <div class="acoes">
+            <a class="btn btn-primario" href="cursos.html">Ver cursos</a>
+            <a class="btn btn-secundario" href="#contato">Inscreva-se</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <img src="img/placeholder.png" style="width: 500px;" alt="Adolescentes programando" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao container">
+      <div class="conteudo-sobre">
+        <h2>Sobre o CodeJovem</h2>
+        <p>O CodeJovem é um projeto que ensina adolescentes a criar páginas web com HTML e CSS, usando boas práticas e ferramentas reais.</p>
+      </div>
+    </section>
+
+    <section id="cursos-destaque" class="secao bg-escuro-claro">
+      <div class="container">
+        <h2 class="titulo-center">Cursos em Destaque</h2>
+        <div class="row g-4 cards-grid">
+
+          <div class="col-sm-6 col-md-4">
+            <article class="card curso">
+              <div class="thumb">
+                <img src="img/html-logo.png" alt="Curso HTML" class="thumb-img">
+              </div>
+              <div class="card-body">
+                <h3>HTML Básico</h3>
+                <p>Entenda as tags, estrutura e como criar sua primeira página.</p>
+                <div class="card-actions">
+                  <a href="cursos.html#html" class="btn btn-pequeno btn-primario">Ver</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <article class="card curso">
+              <div class="thumb">
+                <img src="img/css-logo.png" alt="Curso CSS" class="thumb-img">
+              </div>
+              <div class="card-body">
+                <h3>CSS Básico</h3>
+                <p>Aprenda cores, fontes, espaçamentos e como deixar o site bonito.</p>
+                <div class="card-actions">
+                  <a href="cursos.html#css" class="btn btn-pequeno btn-primario">Ver</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <article class="card curso">
+              <div class="thumb">
+                <img src="img/bootstrap-logo.png" alt="Curso Bootstrap" class="thumb-img">
+              </div>
+              <div class="card-body">
+                <h3>Bootstrap</h3>
+                <p>Use componentes prontos e torne seus sites responsivos.</p>
+                <div class="card-actions">
+                  <a href="cursos.html#bootstrap" class="btn btn-pequeno btn-primario">Ver</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao container">
+      <h2 class="titulo-center">Fale conosco</h2>
+      <div class="row contato-grid">
+        <div class="col-lg-7">
+          <form class="form-contato">
+            <div class="caixa-form">
+              <label>Nome</label>
+              <input type="text" class="form-control" placeholder="Seu nome" required>
+            </div>
+
+            <div class="caixa-form">
+              <label>E-mail</label>
+              <input type="email" class="form-control" placeholder="seu@email.com" required>
+            </div>
+
+            <div class="caixa-form">
+              <label>Mensagem</label>
+              <textarea class="form-control" rows="4" placeholder="Sua mensagem" required></textarea>
+            </div>
+
+            <button class="btn btn-primario" type="submit">Enviar</button>
+          </form>
+        </div>
+
+    <div class="col-lg-5">
+        <div class="contato-info">
+            <h3>Informações</h3>
+            
+            <p>
+            <button>Email: <a href=""></a></button> contato@codejovem.edu.br
+            </p>
+
+            <p>
+            <button>Instagram: <a href=""></a></button> @codejovem
+            </p>
+
+            <p>
+            <button>WhatsApp: <a href=""></a></button> (81) 99914-4490
+            </p>
+
+            <img src="img/codejovem-logo.png" width="40%" alt="logo CodeJovem">
+        </div>
+    </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-inner">
+      <p>© <span id="ano"></span> CodeJovem — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+    const btn = document.getElementById('btnMenu');
+    const nav = document.querySelector('.nav-principal');
+    btn.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
