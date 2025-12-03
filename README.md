@@ -1,11 +1,9 @@
-# 🎓 CodeJovem – Plataforma de Aprendizado
+Aluno: Hugo Henrique Gomes Cavalcanti
+Matrícula: FR046347
+O Projeto: **CodeJovem** é um projeto apresentado na disciplina de Linguagem de Maração e Formatação. Seu objetivo é introduzir jovens ao mundo da tecnologia através de um site moderno, responsivo e fácil de navegar.  
 
-https://github.com/hugo-cavalcanti/CodeJovem.git
 
-O **CodeJovem** é um projeto criado com o objetivo de introduzir jovens ao mundo da tecnologia através de um site moderno, responsivo e fácil de navegar.  
----
-
-## Funcionalidades
+Funcionalidades
 
 - Página inicial moderna com:
   - Hero com a logo do projeto
@@ -14,9 +12,7 @@ O **CodeJovem** é um projeto criado com o objetivo de introduzir jovens ao mund
   - Formulário de contato
 - Página exclusiva para **Cursos**
 
----
-
-## 🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3**
@@ -24,4 +20,4 @@ O **CodeJovem** é um projeto criado com o objetivo de introduzir jovens ao mund
 - **Google Fonts**
 - **Imagens personalizadas (hero, cursos e logotipo)**
 
----
+--
